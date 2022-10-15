@@ -10,6 +10,9 @@ export const UserProfile = styled.div`
 
   background-color: ${p => p.theme.colors.white};
   border-radius: 5px;
+  box-shadow: 5px 5px 12px 2px #96b8d4;
+
+  overflow: hidden;
 `;
 
 export const UserInfoBox = styled.div`
@@ -47,7 +50,6 @@ export const UserStats = styled.ul`
   align-items: center;
   justify-content: center;
   width: 100%;
-  background-color: ${p => p.theme.colors.accentBlue};
 `;
 
 export const StatsItem = styled.li`
@@ -58,6 +60,8 @@ export const StatsItem = styled.li`
   width: 100%;
   padding: 20px 0;
   border: 1px solid ${p => p.theme.colors.white};
+  border-radius: 5px;
+  background-color: ${p => p.theme.colors.accentBlue};
 `;
 
 export const StatsLabel = styled.span`

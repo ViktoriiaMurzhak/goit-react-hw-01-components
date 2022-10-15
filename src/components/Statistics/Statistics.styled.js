@@ -7,8 +7,10 @@ export const StatisticsSection = styled.section`
   align-items: center;
   width: 40%;
   margin: 15px auto;
-
   border-radius: 5px;
+  box-shadow: 5px 5px 12px 2px #96b8d4;
+
+  overflow: hidden;
 `;
 
 export const StatisticsTitle = styled.h2`

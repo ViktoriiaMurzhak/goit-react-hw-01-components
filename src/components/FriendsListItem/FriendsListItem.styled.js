@@ -7,6 +7,11 @@ export const FriendItem = styled.li`
   align-items: center;
   padding: 15px 0;
   border-radius: 5px;
+  box-shadow: 5px 5px 12px 2px #96b8d4;
+
+  :hover {
+    background-color: ${p => p.theme.colors.blue};
+  }
 `;
 
 export const FriendIsOnline = styled.span`
