@@ -17,6 +17,9 @@ export const FriendItem = styled.li`
 export const FriendIsOnline = styled.span`
   width: 20px;
   height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 50%;
   background-color: ${({ isOnline }) => (isOnline ? 'red' : 'green')};
   margin-right: 15px;

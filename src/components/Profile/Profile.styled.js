@@ -43,6 +43,10 @@ export const UserTag = styled.p`
 export const UserLocation = styled.p`
   font-size: 16px;
   margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
 `;
 
 export const UserStats = styled.ul`

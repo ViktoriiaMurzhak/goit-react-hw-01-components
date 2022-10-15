@@ -1,4 +1,6 @@
 import PropTypes from 'prop-types';
+import { HiHeart } from 'react-icons/hi';
+
 import {
   FriendItem,
   FriendIsOnline,
@@ -9,7 +11,9 @@ import {
 export const FriendsListItem = ({ avatar, name, isOnline }) => {
   return (
     <FriendItem>
-      <FriendIsOnline isOnline={isOnline}></FriendIsOnline>
+      <FriendIsOnline isOnline={isOnline}>
+        <HiHeart size={'15px'} color={'#fff'}></HiHeart>
+      </FriendIsOnline>
       <FriendAvatar src={avatar} alt="User avatar" width="48" />
       <FriendName>{name}</FriendName>
     </FriendItem>

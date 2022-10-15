@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import { HiLocationMarker } from 'react-icons/hi';
 
 import {
   UserProfile,
@@ -26,7 +27,10 @@ export const Profile = ({
         <UserAvatar src={avatar} alt="User avatar" />
         <UserName>{username}</UserName>
         <UserTag>{'@' + tag}</UserTag>
-        <UserLocation>{location}</UserLocation>
+        <UserLocation>
+          <HiLocationMarker size={'20px'} />
+          {location}
+        </UserLocation>
       </UserInfoBox>
 
       <UserStats>
