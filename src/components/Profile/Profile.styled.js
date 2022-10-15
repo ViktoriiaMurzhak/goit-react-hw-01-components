@@ -8,7 +8,7 @@ export const UserProfile = styled.div`
   width: 30%;
   margin: 15px auto;
 
-  background-color: ${p => p.theme.colors.blue};
+  background-color: ${p => p.theme.colors.white};
   border-radius: 5px;
   border: 1px solid ${p => p.theme.colors.grey};
 `;
@@ -20,7 +20,7 @@ export const UserInfoBox = styled.div`
 
 export const UserAvatar = styled.img`
   width: 50%;
-  background-color: ${p => p.theme.colors.lightGrey};
+  background-color: ${p => p.theme.colors.blue};
   border-radius: 50%;
   border: 1px solid ${p => p.theme.colors.grey};
   margin: 25px auto;

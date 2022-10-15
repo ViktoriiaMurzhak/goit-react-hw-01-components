@@ -1,2 +1,2 @@
 export * from './Profile';
-// export * from './Profile.styled';
+export * from './Profile.styled';

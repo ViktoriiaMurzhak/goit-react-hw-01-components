@@ -8,5 +8,10 @@ export const theme = Object.freeze({
     accentBlue: '#86b1de',
     primaryText: '#37373d',
     secondaryText: '#63788e',
+    pink: '#af6ba7',
+    yellow: '#ece990',
+    green: '#abec90',
+    orange: '#ffbe76',
+    red: '#cd5555',
   },
 });
