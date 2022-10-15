@@ -12,6 +12,6 @@ export const theme = Object.freeze({
     yellow: '#ece990',
     green: '#abec90',
     orange: '#ffbe76',
-    red: '#cd5555',
+    red: 'red',
   },
 });

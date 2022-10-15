@@ -5,11 +5,10 @@ export const StatisticsSection = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 30%;
+  width: 40%;
   margin: 15px auto;
 
   border-radius: 5px;
-  border: 1px solid ${p => p.theme.colors.grey};
 `;
 
 export const StatisticsTitle = styled.h2`

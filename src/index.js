@@ -5,11 +5,13 @@ import './index.css';
 import { App } from '../src/App';
 import { Profile } from './components/Profile';
 import { Statistics } from 'components/Statistics';
+import { FriendsList } from 'components/FriendList';
 import { ThemeProvider } from 'styled-components';
 import { theme } from './helpers/theme';
 
 import user from './data/user.json';
 import data from './data/data.json';
+import friends from './data/friends.json';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -23,6 +25,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           stats={user.stats}
         />
         <Statistics title="Upload stats" stats={data} />
+        <FriendsList friends={friends} />
       </App>
     </ThemeProvider>
   </React.StrictMode>

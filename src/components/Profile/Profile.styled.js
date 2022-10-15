@@ -10,7 +10,6 @@ export const UserProfile = styled.div`
 
   background-color: ${p => p.theme.colors.white};
   border-radius: 5px;
-  border: 1px solid ${p => p.theme.colors.grey};
 `;
 
 export const UserInfoBox = styled.div`
@@ -58,7 +57,7 @@ export const StatsItem = styled.li`
   align-items: center;
   width: 100%;
   padding: 20px 0;
-  border: 1px solid ${p => p.theme.colors.grey};
+  border: 1px solid ${p => p.theme.colors.white};
 `;
 
 export const StatsLabel = styled.span`
