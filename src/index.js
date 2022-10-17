@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-import { App } from './App';
+import { App } from './components/App';
 import { Profile } from './components/Profile';
 import { Statistics } from 'components/Statistics';
 import { FriendsList } from 'components/FriendList';
